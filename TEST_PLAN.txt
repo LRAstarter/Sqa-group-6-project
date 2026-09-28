@@ -1,0 +1,20 @@
+CSCI 3060U Phase 1 Front End Test Plan
+Alex Ho 100971089 | Jevin Chen 100819841 | Shem Jagroop 100826638
+
+Purpose
+Parts 2 and 3 provide a separate input stream and expected result for every case in the test index. Each test starts with fresh account, game, and collection files. The Front End implementation is scheduled for a later phase. The test oracles describe behavior now and are checked against that implementation later.
+
+Organization
+fixtures/ holds shared starting files. inputs/ holds one complete stdin stream per test. expected_daily/ holds the proposed daily transaction file per test. expected_behavior/ records console outcomes and state expectations without inventing exact prompt wording. results/<test ID>/ holds copies of fixtures, actual daily.txt, console.txt, and daily.diff. test_index.tsv maps all 52 IDs to intent. scripts/ contains shell and Windows batch examples.
+
+Run procedure
+1. Confirm the Front End's executable invocation and filename conventions with the team. Adapt the command in both scripts if it differs from the assumed executable users.txt games.txt collection.txt daily.txt interface. 2. Run scripts/run_all.sh /absolute/path/to/program on macOS/Linux or scripts\run_all.bat C:\path\to\program.exe on Windows. 3. Each test starts with fresh fixtures in its own results folder and redirects its input stream to the program. 4. Inspect daily.diff and console.txt against expected_daily and expected_behavior. Record PASS/FAIL/NEEDS CLARIFICATION in a review log; retain these results and rerun after each code change. No program is supplied or run in Phase 1.
+
+Interpretation and requirements issues for TA
+The specification gives no exact console message or prompt text. Behavioral output is therefore stated semantically. It does not define whether rejected commands consume their parameter lines; rejected permission cases supply no parameters so later logout remains a command. Some invalid-input cases give only the invalid value and then logout; if the eventual implementation reprompts, provide the replacement value before running.
+The accounts format says 28 characters, yet the displayed field widths add to 29 (15+1+2+1+9). Games says 49, then 42, while widths 25+1+15+1+6 add to 48. The fixtures and daily files use the shown field widths; the TA should settle the contradictions. The sell/buy daily diagram shows game-name widths inconsistent with the stated 25-character limit. This package uses 25. The 9-character monetary field cannot hold 999999.00; confirm whether 999999 means dollars or cents.
+The handout does not specify initial credit on create, so records use 000000.00. It does not specify whether delete logs the deleted user's previous credit, addcredit logs the added amount or resulting balance, or whether buy/refund amounts include concurrent state. Proposed files use previous credit on delete and transaction amount on addcredit, buy and refund. Confirm with TA. The specification supplies no account ownership encoding in the available game collection, and whether purchases are immediately visible to the next session is unspecified.
+Blank names, negative and malformed amounts, seller balance checks, zero price, unknown seller, and maximum account balance checks are plausible bad-input requirements under the graceful-handling rule; their exact rejection semantics need TA confirmation. The spec calls refund privileged but does not explicitly state a sufficient seller balance constraint, which the general no-negative-balance policy suggests. The project description says each logout writes a session file; for the two-session test, compare each session's end record separately.
+
+Submission
+Submit the prior Part 1 test-case table plus this zip and this test plan PDF on Canvas; commit the files to the team GitHub repository. The assignment explicitly requires the complete AI prompt and response history when AI is used. Export and include the full history for this work; a one-line disclosure is insufficient.

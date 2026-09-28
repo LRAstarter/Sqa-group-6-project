@@ -1,0 +1,5 @@
+login
+Admin1
+delete
+Seller1
+logout

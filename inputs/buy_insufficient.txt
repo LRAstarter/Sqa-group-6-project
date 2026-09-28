@@ -1,0 +1,6 @@
+login
+Poor1
+buy
+Existing Game
+Seller1
+logout

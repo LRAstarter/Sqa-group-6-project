@@ -1,0 +1,6 @@
+login
+Admin1
+sell
+AAAAAAAAAAAAAAAAAAAAAAAAAA
+1.00
+logout

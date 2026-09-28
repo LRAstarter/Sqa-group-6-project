@@ -1,0 +1,53 @@
+ID	Area	Intention	Fixture
+session_admin	session	Admin login and logout	base
+session_standard	session	Standard login and logout	base
+login_unknown	session	Unknown login is rejected, then valid login works	base
+before_login	session	Reject transaction before login	base
+double_login	session	Reject second login within session	base
+after_logout	session	Reject transaction after logout and permit another login	base
+create_aa	create	Create AA user	base
+create_fs	create	Create FS user	base
+create_bs	create	Create BS user	base
+create_ss	create	Create SS user	base
+create_length_15	create	Accept 15 character username	base
+create_duplicate	create	Reject existing username	base
+create_length_16	create	Reject 16 character username	base
+create_blank	create	Reject blank username	base
+create_bad_type	create	Reject invalid account type	base
+create_nonadmin	create	Reject create for standard user	base
+delete_valid	delete	Remove existing user and their sale listing	base
+delete_self	delete	Prevent deleting logged-in account	base
+delete_unknown	delete	Prevent deleting unknown account	base
+delete_nonadmin	delete	Reject deletion by non-admin	base
+sell_valid	sell	Sell a new game	base
+sell_max	sell	Accept price boundary 999.99	base
+sell_name_25	sell	Accept 25 character game name	base
+sell_over_price	sell	Reject price above 999.99	base
+sell_long_name	sell	Reject 26 character game name	base
+sell_duplicate	sell	Reject duplicate game name	base
+sell_negative	sell	Reject negative price	base
+sell_bad_price	sell	Handle malformed price without crashing	base
+sell_buyonly	sell	Reject sell for buy-standard	base
+sell_same_session_buy	sell	New sale unavailable for purchase until next session	base
+buy_valid	buy	Buy existing game with sufficient funds	base
+buy_unknown	buy	Reject unknown game	base
+buy_insufficient	buy	Reject insufficient funds	base
+buy_owned	buy	Reject buying already owned game	base
+buy_wrong_seller	buy	Reject incorrect seller	base
+buy_sellonly	buy	Reject buy for sell-standard	base
+refund_valid	refund	Transfer refund to buyer	base
+refund_unknown_buyer	refund	Reject unknown buyer	base
+refund_unknown_seller	refund	Reject unknown seller	base
+refund_insufficient	refund	Reject refund exceeding seller balance	base
+refund_negative	refund	Reject negative refund	base
+refund_nonadmin	refund	Reject refund for non-admin	base
+credit_admin	addcredit	Admin adds credit to existing user	base
+credit_self	addcredit	Standard user adds credit to self	base
+credit_admin_unknown	addcredit	Reject credit to unknown user	base
+credit_negative	addcredit	Reject negative credit	base
+credit_1000	addcredit	Accept 1000.00 per session	base
+credit_1001	addcredit	Reject 1000.01 in one session	base
+credit_cumulative	addcredit	Reject session cumulative additions over 1000	base
+credit_ceiling	addcredit	Reject addition that pushes account above 999999	base
+unknown_code	general	Reject unknown transaction and continue	base
+bad_amount	general	Reject malformed amount and continue	base

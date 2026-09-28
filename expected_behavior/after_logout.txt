@@ -1,0 +1,1 @@
+Buy rejected between sessions; next login succeeds; two separate daily files.

@@ -1,0 +1,1 @@
+Transaction rejected; session stays responsive; no failed transaction is written.
