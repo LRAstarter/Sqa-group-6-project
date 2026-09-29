@@ -1,2 +1,2 @@
-03 AAAAAAAAAAAAAAAAAAAAAAAAA Admin1          001.00
-00                    000000.00
+03 Resident Evil Revelations Admin1          001.00
+00 Admin1          AA 005000.00
