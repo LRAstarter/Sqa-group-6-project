@@ -1,0 +1,4 @@
+login
+Seller1
+list
+logout
