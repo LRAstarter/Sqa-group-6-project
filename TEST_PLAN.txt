@@ -12,9 +12,32 @@ Run procedure
 
 Interpretation and requirements issues for TA
 The specification gives no exact console message or prompt text. Behavioral output is therefore stated semantically. It does not define whether rejected commands consume their parameter lines; rejected permission cases supply no parameters so later logout remains a command. Some invalid-input cases give only the invalid value and then logout; if the eventual implementation reprompts, provide the replacement value before running.
-The accounts format says 28 characters, yet the displayed field widths add to 29 (15+1+2+1+9). Games says 49, then 42, while widths 25+1+15+1+6 add to 48. The fixtures and daily files use the shown field widths; the TA should settle the contradictions. The sell/buy daily diagram shows game-name widths inconsistent with the stated 25-character limit. This package uses 25. The 9-character monetary field cannot hold 999999.00; confirm whether 999999 means dollars or cents.
-The handout does not specify initial credit on create, so records use 000000.00. It does not specify whether delete logs the deleted user's previous credit, addcredit logs the added amount or resulting balance, or whether buy/refund amounts include concurrent state. Proposed files use previous credit on delete and transaction amount on addcredit, buy and refund. Confirm with TA. The specification supplies no account ownership encoding in the available game collection, and whether purchases are immediately visible to the next session is unspecified.
+The accounts file field widths add to 28 characters (15+1+2+1+9), matching its stated length. The available games file says 49 and later 42 characters, while the field widths add to 48; the collection file says 42 but its field widths add to 41. These fixtures follow the displayed widths. The client clarified that usernames are 15 characters in every record, and that the monetary decimal is included in the nine-character credit field. The maximum credit is 999999.99. The game-name width in these daily files follows the 25-character name limit.
+The client clarified that a newly created user starts with zero credit. Each end-of-session (00) record names the logged-in user, user type, and available credit at logout. A rejected transaction contributes no daily record; a completed logout still contributes a 00 record. For create, delete and addcredit, the daily record uses the account's available credit after the accepted transaction; refund stores the transferred amount and buy/sell store the game price. The handout is less explicit about the timing of balance updates. Confirm any differing implementation behavior with the client. The specification supplies no account ownership encoding in the available game collection, and whether purchases are immediately visible to the next session is unspecified.
 Blank names, negative and malformed amounts, seller balance checks, zero price, unknown seller, and maximum account balance checks are plausible bad-input requirements under the graceful-handling rule; their exact rejection semantics need TA confirmation. The spec calls refund privileged but does not explicitly state a sufficient seller balance constraint, which the general no-negative-balance policy suggests. The project description says each logout writes a session file; for the two-session test, compare each session's end record separately.
 
 Submission
 Submit the prior Part 1 test-case table plus this zip and this test plan PDF on Canvas; commit the files to the team GitHub repository. The assignment explicitly requires the complete AI prompt and response history when AI is used. Export and include the full history for this work; a one-line disclosure is insufficient.
+
+
+Things add: 
+removed all of the unnessessary 0.
+things noted: The _ are the spaces, it is required, The large gaps happen because every username field must take up 15 characters:
+- Admin1 has 6 characters → 9 padding spaces, then 1 separator space before AA.
+- User1 has 5 characters → 10 padding spaces, then 1 separator space before FS.
+
+proof: 
+under Current User Accounts File, says:
+- “_ is a space” — under the field descriptions.
+- “alphabetic fields are left justified, filled with spaces” — the second bullet under Constraints.
+Under Daily Transaction File → Constraints, the last bullet says:
+“the sequence of transactions ends with an end of session (00) transaction code”
+
+so we also need the 00 for the logout as well.
+
+
+clear ups: 
+unknown_code.txt tests an unrecognized command: The program should reject abracadabra because it isn’t a valid command, then allow logout.
+
+
+

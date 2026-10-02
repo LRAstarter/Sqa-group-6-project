@@ -1,0 +1,1 @@
+accepted; display all games with relevant sale data

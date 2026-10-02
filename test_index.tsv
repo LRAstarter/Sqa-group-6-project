@@ -51,3 +51,11 @@ credit_cumulative	addcredit	Reject session cumulative additions over 1000	base
 credit_ceiling	addcredit	Reject addition that pushes account above 999999	base
 unknown_code	general	Reject unknown transaction and continue	base
 bad_amount	general	Reject malformed amount and continue	base
+list_valid_admin    list    Admin can view all games for sale   base
+list_valid_buyer    list    Buyer can view all games for sale   base
+list_valid_seller   list    Seller can view all games for sale  base
+list_before_login   list    Reject list before login    base
+list_after_logout   list    Reject list after logout    base
+list_empty  list    Display message stating list is empty   base
+list_one_game   list    Display the single game's info for sale   base
+list_after_delete   list    Display games for sale after deletion   base
