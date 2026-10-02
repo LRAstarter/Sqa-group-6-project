@@ -1,2 +1,2 @@
-01 FifteenCharName FS 000000.00
+01 FifteenCharName AA 000000.00
 00                    000000.00
