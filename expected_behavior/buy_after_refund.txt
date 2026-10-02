@@ -1,0 +1,1 @@
+Expected behavior: Admin1 can refund game receiving there 25$; they then pay 25$ to rebuy game; collection file is updated;transaction file is updated twice

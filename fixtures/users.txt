@@ -3,5 +3,5 @@ User1           FS 000200.00
 Buyer1          BS 000150.00
 Seller1         SS 000100.00
 Poor1           FS 000005.00
-Rich1           FS 999998.00
+Rich1           FS 999999.00
 END                         
