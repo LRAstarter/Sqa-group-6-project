@@ -1,0 +1,7 @@
+login
+Admin1
+create
+FifteenCharName
+FS
+0
+logout

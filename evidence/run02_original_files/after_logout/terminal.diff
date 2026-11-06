@@ -1,0 +1,9 @@
+--- expected
++++ actual
+@@ -1 +1,6 @@
+-Please login before making a purchase.+Transaction: Username: Login accepted
++Transaction: Logout accepted
++Transaction: Error: you must log in first
++Transaction: Username: Login accepted
++Transaction: Logout accepted
++Transaction: 

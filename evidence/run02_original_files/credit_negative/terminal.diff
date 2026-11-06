@@ -1,0 +1,7 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-That is not a valid amount.+Transaction: Username: Login accepted
++Transaction: Amount: Error: credit cannot be added
++Transaction: Logout accepted
++Transaction: 

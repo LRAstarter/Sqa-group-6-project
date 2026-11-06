@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-Resident Evil Revelations is now for sale at $1.00.
++Transaction: Username: Login accepted
++Transaction: Game name: Price: Game put up for sale
++Transaction: Logout accepted
++Transaction: 

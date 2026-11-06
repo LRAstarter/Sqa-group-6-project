@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-Only $1000.00 of credit can be added to an account in one session.
++Transaction: Username: Login accepted
++Transaction: Amount: Error: credit cannot be added
++Transaction: Logout accepted
++Transaction: 

@@ -1,0 +1,6 @@
+login
+Buyer1
+buy
+Existing Game
+Ghost
+logout

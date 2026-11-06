@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-Only an admin can issue refunds.
++Transaction: Username: Login accepted
++Transaction: Error: only an admin can refund
++Transaction: Logout accepted
++Transaction: 

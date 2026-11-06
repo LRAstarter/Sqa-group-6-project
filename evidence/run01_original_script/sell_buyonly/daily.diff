@@ -1,0 +1,6 @@
+--- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/sell_buyonly.txt	2026-11-02 17:10:05.000000000 -0500
++++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/sell_buyonly/daily.txt	2026-11-02 17:26:47.629263333 -0500
+@@ -1 +1 @@
+-00 Buyer1000000000 BS 000125.00
+\ No newline at end of file
++00 Buyer1          BS 000150.00

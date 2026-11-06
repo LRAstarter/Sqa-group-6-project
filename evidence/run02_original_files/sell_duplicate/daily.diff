@@ -1,0 +1,5 @@
+--- expected
++++ actual
+@@ -1,2 +0,0 @@
+-03 ExistingGame00 Admin100000000 005.00
+-00 Admin100000000 AA 005000.00

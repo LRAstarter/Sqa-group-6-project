@@ -1,0 +1,5 @@
+--- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/session_admin.txt	2026-11-02 17:10:05.000000000 -0500
++++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/session_admin/daily.txt	2026-11-02 17:26:47.377394200 -0500
+@@ -1 +1 @@
+-00 Admin100000000 AA 005000.00
++00 Admin1          AA 005000.00

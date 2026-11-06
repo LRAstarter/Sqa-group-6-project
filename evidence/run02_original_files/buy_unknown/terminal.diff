@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-That game is not for sale.
++Transaction: Username: Login accepted
++Transaction: Game name: Seller username: Error: that game cannot be bought
++Transaction: Logout accepted
++Transaction: 

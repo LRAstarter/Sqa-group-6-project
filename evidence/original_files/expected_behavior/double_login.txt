@@ -1,0 +1,1 @@
+Second login rejected without consuming a username; first session ends.

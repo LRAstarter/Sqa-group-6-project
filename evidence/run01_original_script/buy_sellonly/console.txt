@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Error: sell-standard accounts cannot buy
+Transaction: Logout accepted
+Transaction: 

@@ -1,0 +1,4 @@
+--- expected
++++ actual
+@@ -1 +1 @@
+-00 Seller10000000 AA 000100.00+00 Seller1         SS 000100.00

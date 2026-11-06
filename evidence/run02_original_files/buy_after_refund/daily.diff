@@ -1,0 +1,7 @@
+--- expected
++++ actual
+@@ -1,3 +1 @@
+-05 Buyer1000000000 Seller100000000 000025.00
+-04 Existing Game00000000000 Seller1000000000 Buyer1000000000 025.00
+-00 Admin1000000000 AA 005000.00
++00 Admin1          AA 005000.00

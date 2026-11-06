@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-This would put the account over the maximum credit of $999,999.99.
++Transaction: Username: Login accepted
++Transaction: Amount: Username: Error: credit cannot be added
++Transaction: Logout accepted
++Transaction: 

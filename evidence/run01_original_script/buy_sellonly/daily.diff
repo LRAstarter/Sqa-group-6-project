@@ -1,0 +1,6 @@
+--- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/buy_sellonly.txt	2026-11-02 17:10:05.000000000 -0500
++++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/buy_sellonly/daily.txt	2026-11-02 17:26:47.694877749 -0500
+@@ -1 +1 @@
+-00 Seller10000000 AA 000100.00
+\ No newline at end of file
++00 Seller1         SS 000100.00

@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-The username cannot be blank.
++Transaction: Username: Login accepted
++Transaction: New username: Error: that username cannot be used
++Transaction: Logout accepted
++Transaction: 

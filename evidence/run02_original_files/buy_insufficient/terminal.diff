@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-You do not have enough credit to buy this game.
++Transaction: Username: Login accepted
++Transaction: Game name: Seller username: Error: that game cannot be bought
++Transaction: Logout accepted
++Transaction: 

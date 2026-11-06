@@ -1,0 +1,6 @@
+login
+Admin1
+sell
+New Game
+15.00
+logout

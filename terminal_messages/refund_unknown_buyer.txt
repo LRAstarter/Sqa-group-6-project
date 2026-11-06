@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Buyer username: Seller username: Refund amount: Error: that refund cannot be made
+Transaction: Logout accepted
+Transaction: 

@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Game name: Price: Error: invalid price
+Transaction: Logout accepted
+Transaction: 

@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Logout accepted
+Transaction: Error: you must log in first
+Transaction: 

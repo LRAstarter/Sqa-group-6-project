@@ -1,0 +1,6 @@
+login
+Admin1
+create
+NewSeller
+SS
+logout

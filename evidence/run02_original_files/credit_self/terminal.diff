@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-$20.00 was added to User1's account.
++Transaction: Username: Login accepted
++Transaction: Amount: Credit added
++Transaction: Logout accepted
++Transaction: 

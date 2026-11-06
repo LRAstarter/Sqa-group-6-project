@@ -1,0 +1,6 @@
+--- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/delete_nonadmin.txt	2026-11-02 17:10:05.000000000 -0500
++++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/delete_nonadmin/daily.txt	2026-11-02 17:26:47.550494482 -0500
+@@ -1 +1 @@
+-00 User10000000000 FS 0000200.00
+\ No newline at end of file
++00 User1           FS 000200.00

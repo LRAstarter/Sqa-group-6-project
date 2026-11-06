@@ -1,0 +1,4 @@
+Transaction: Username: Error: login failed
+Transaction: Username: Login accepted
+Transaction: Logout accepted
+Transaction: 

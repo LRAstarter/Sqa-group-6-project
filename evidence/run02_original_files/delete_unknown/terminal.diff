@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-That account does not exist.
++Transaction: Username: Login accepted
++Transaction: Username to delete: Error: that account cannot be deleted
++Transaction: Logout accepted
++Transaction: 

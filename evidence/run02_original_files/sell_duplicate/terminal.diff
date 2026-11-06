@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-A game with that name is already for sale.
++Transaction: Username: Login accepted
++Transaction: Game name: Price: Error: that game cannot be sold
++Transaction: Game name: Price: Error: invalid price
++Transaction: 
