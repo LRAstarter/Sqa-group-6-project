@@ -1,4 +1,0 @@
-Transaction: Username: Login accepted
-Transaction: Error: only an admin can delete accounts
-Transaction: Logout accepted
-Transaction: 

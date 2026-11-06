@@ -1,1 +1,0 @@
-Accepted; Display empty list of games

@@ -1,7 +1,0 @@
-login
-Admin1
-create
-NewAdmin
-AA
-0
-logout

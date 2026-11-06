@@ -1,4 +1,0 @@
-Transaction: Username: Login accepted
-Transaction: Game name: Seller username: Purchase accepted
-Transaction: Logout accepted
-Transaction: 

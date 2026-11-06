@@ -1,1 +1,0 @@
-The price cannot be more than $999.99.

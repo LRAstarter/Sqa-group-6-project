@@ -1,7 +1,0 @@
-login
-Admin1
-create
-NewFull
-FS
-0
-logout

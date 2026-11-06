@@ -1,1 +1,0 @@
-Rejected; Error: User must be logged in before viewing list

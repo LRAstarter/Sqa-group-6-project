@@ -1,5 +1,0 @@
-login
-User1
-addcredit
-20.00
-logout

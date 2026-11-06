@@ -1,4 +1,0 @@
-buy
-login
-Admin1
-logout

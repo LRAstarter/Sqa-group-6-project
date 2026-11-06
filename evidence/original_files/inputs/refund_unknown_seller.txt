@@ -1,8 +1,0 @@
-login
-Admin1
-refund
-Buyer1
-Existing Game
-Ghost
-10.00
-logout

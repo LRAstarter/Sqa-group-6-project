@@ -1,1 +1,0 @@
-Admin login succeeds; logout emits only end-of-session record.

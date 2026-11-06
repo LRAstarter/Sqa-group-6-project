@@ -1,7 +1,0 @@
-login
-User1
-addcredit
-600.00
-addcredit
-400.01
-logout

@@ -1,6 +1,0 @@
-login
-Buyer1
-buy
-Missing Game
-Seller1
-logout

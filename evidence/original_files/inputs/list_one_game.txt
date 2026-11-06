@@ -1,4 +1,0 @@
-login
-User1
-list
-logout

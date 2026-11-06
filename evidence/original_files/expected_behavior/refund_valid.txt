@@ -1,1 +1,0 @@
-Buyer1 credited 20.00; Seller1 debited 20.00.

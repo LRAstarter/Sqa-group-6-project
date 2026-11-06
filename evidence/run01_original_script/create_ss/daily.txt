@@ -1,2 +1,0 @@
-01 NewSeller       SS 000000.00
-00 Admin1          AA 005000.00

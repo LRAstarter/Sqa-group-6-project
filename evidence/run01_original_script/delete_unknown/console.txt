@@ -1,4 +1,0 @@
-Transaction: Username: Login accepted
-Transaction: Username to delete: Error: that account cannot be deleted
-Transaction: Logout accepted
-Transaction: 

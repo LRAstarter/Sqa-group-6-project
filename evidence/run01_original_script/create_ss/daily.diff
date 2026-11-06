@@ -1,7 +1,0 @@
---- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/create_ss.txt	2026-11-02 17:10:05.000000000 -0500
-+++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/create_ss/daily.txt	2026-11-02 17:26:47.461213084 -0500
-@@ -1,2 +1,2 @@
--01 NewSeller000000 SS 000000.00
--00 Admin1000000000 AA 005000.00
-+01 NewSeller       SS 000000.00
-+00 Admin1          AA 005000.00

@@ -1,6 +1,0 @@
-login
-Admin1
-sell
-Resident Evil Revelations
-1.00
-logout

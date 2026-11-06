@@ -1,7 +1,0 @@
---- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/credit_1000.txt	2026-11-02 17:10:05.000000000 -0500
-+++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/credit_1000/daily.txt	2026-11-02 17:26:47.795175263 -0500
-@@ -1,2 +1,2 @@
--06 User10000000000 FS 001200.00
--00 User10000000000 FS 001200.00
-+06 User1           FS 001200.00
-+00 User1           FS 001200.00

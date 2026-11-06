@@ -1,6 +1,0 @@
---- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/buy_unknown.txt	2026-11-02 17:10:05.000000000 -0500
-+++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/buy_unknown/daily.txt	2026-11-02 17:26:47.656974647 -0500
-@@ -1 +1 @@
--00 Buyer100000000 AA 000150.00
-\ No newline at end of file
-+00 Buyer1          BS 000150.00

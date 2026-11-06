@@ -1,4 +1,0 @@
-Transaction: Username: Login accepted
-Transaction: Amount: Username: Error: credit cannot be added
-Transaction: Logout accepted
-Transaction: 

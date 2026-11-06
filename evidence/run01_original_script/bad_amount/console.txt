@@ -1,5 +1,0 @@
-Transaction: Username: Login accepted
-Transaction: Amount: Error: invalid amount
-Transaction: Error: unknown transaction
-Transaction: Logout accepted
-Transaction: 

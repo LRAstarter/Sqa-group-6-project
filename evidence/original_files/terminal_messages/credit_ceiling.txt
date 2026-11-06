@@ -1,1 +1,0 @@
-This would put the account over the maximum credit of $999,999.99.

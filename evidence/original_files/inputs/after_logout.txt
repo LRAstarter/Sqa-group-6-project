@@ -1,7 +1,0 @@
-login
-Admin1
-logout
-buy
-login
-User1
-logout

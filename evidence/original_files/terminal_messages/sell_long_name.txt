@@ -1,1 +1,0 @@
-The game name cannot be longer than 25 characters.

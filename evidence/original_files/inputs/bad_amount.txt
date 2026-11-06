@@ -1,6 +1,0 @@
-login
-Admin1
-addcredit
-abc
-User1
-logout

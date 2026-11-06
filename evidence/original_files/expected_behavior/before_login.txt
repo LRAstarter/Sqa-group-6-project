@@ -1,1 +1,0 @@
-Buy rejected while logged out; later login succeeds.

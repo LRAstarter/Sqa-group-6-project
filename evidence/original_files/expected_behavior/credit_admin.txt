@@ -1,1 +1,0 @@
-Buyer1 balance increases by 20.00.

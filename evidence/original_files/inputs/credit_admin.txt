@@ -1,6 +1,0 @@
-login
-Admin1
-addcredit
-20.00
-Buyer1
-logout
