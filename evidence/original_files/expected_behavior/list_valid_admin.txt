@@ -1,0 +1,1 @@
+accepted; Display list of games with relevant data

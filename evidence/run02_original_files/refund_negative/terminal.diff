@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,5 @@
+-That is not a valid refund amount.+Transaction: Username: Login accepted
++Transaction: Buyer username: Seller username: Refund amount: Error: invalid amount
++Transaction: Error: unknown transaction
++Transaction: Logout accepted
++Transaction: 

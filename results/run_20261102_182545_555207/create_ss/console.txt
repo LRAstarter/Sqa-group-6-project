@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: New username: Account type: Account created
+Transaction: Logout accepted
+Transaction: 

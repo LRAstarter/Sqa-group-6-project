@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-You are already logged in. Please logout first.
++Transaction: Username: Login accepted
++Transaction: Error: already logged in
++Transaction: Logout accepted
++Transaction: 

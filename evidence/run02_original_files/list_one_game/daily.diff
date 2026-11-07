@@ -1,0 +1,4 @@
+--- expected
++++ actual
+@@ -1 +1 @@
+-00	Buyer1		BS	000150.00+00 User1           FS 000200.00

@@ -1,0 +1,6 @@
+--- expected
++++ actual
+@@ -1 +1,2 @@
+-Please login before viewing the list of games.
++Transaction: Error: you must log in first
++Transaction: 

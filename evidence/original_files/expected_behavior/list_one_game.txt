@@ -1,0 +1,1 @@
+Accepted; Display list of one game with data

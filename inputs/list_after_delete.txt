@@ -1,0 +1,6 @@
+login
+Admin1
+delete
+Seller1
+list
+logout

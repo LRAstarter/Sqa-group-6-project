@@ -1,0 +1,11 @@
+--- expected
++++ actual
+@@ -1 +1,7 @@
+-There are no games for sale right now.
++Transaction: Error: you must log in first
++Transaction: Error: you must log in first
++Transaction: Error: you must log in first
++Transaction: Error: you must log in first
++Transaction: Error: you must log in first
++Transaction: Error: you must log in first
++Transaction: 

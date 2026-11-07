@@ -1,0 +1,6 @@
+login
+Admin1
+sell
+Maximum Price Game
+999.99
+logout

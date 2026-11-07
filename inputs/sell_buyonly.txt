@@ -1,0 +1,4 @@
+login
+Buyer1
+sell
+logout

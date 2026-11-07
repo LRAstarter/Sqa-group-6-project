@@ -1,0 +1,5 @@
+Transaction: Username: Login accepted
+Transaction: Username to delete: Account deleted
+Transaction: Admin Game | Admin1 | 10.00
+Transaction: Logout accepted
+Transaction: 

@@ -1,0 +1,1 @@
+Sale recorded; purchase of newly listed game rejected in same session.

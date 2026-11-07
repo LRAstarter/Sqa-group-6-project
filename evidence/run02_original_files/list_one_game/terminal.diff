@@ -1,0 +1,9 @@
+--- expected
++++ actual
+@@ -1,2 +1,5 @@
+-Games for sale:
+-Only Game, sold by Admin1, $15.00+Transaction: Username: Login accepted
++Transaction: Existing Game | Seller1 | 25.00
++Cheap Game | Seller1 | 5.00
++Transaction: Logout accepted
++Transaction: 

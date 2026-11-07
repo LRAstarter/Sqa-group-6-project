@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Error: already logged in
+Transaction: Logout accepted
+Transaction: 

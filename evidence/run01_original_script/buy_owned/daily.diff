@@ -1,0 +1,6 @@
+--- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/buy_owned.txt	2026-11-02 17:10:05.000000000 -0500
++++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/buy_owned/daily.txt	2026-11-02 17:26:47.675441074 -0500
+@@ -1 +1 @@
+-00 User1000000000 AA 000200.00
+\ No newline at end of file
++00 User1           FS 000200.00

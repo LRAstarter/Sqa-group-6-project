@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-Sell-standard accounts cannot buy games.
++Transaction: Username: Login accepted
++Transaction: Error: sell-standard accounts cannot buy
++Transaction: Logout accepted
++Transaction: 

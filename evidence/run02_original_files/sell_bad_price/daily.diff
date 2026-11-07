@@ -1,0 +1,4 @@
+--- expected
++++ actual
+@@ -1 +1 @@
+-00 Admin100000000 AA 005000.00+00 Admin1          AA 005000.00

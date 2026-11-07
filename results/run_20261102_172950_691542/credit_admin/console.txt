@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Amount: Username: Credit added
+Transaction: Logout accepted
+Transaction: 

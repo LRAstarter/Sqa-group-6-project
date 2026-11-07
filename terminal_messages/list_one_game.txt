@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Only Game | Admin1 | 15.00
+Transaction: Logout accepted
+Transaction: 

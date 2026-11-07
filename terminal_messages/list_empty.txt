@@ -1,0 +1,5 @@
+Transaction: Username: Login accepted
+Transaction: Username to delete: Account deleted
+Transaction: There are no games for sale right now
+Transaction: Logout accepted
+Transaction: 

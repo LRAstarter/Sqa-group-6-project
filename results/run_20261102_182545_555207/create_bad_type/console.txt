@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: New username: Account type: Error: invalid account type
+Transaction: Logout accepted
+Transaction: 

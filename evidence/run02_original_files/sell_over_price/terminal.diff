@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-The price cannot be more than $999.99.
++Transaction: Username: Login accepted
++Transaction: Game name: Price: Error: that game cannot be sold
++Transaction: Logout accepted
++Transaction: 

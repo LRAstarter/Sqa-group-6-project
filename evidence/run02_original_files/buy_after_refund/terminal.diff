@@ -1,0 +1,12 @@
+--- expected
++++ actual
+@@ -1 +1,8 @@
+-You bought Existing Game for $25.00.
++Transaction: Username: Login accepted
++Transaction: Buyer username: Seller username: Refund amount: Error: invalid amount
++Transaction: Error: unknown transaction
++Transaction: Error: unknown transaction
++Transaction: Error: unknown transaction
++Transaction: Error: unknown transaction
++Transaction: Logout accepted
++Transaction: 

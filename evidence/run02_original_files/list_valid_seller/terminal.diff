@@ -1,0 +1,11 @@
+--- expected
++++ actual
+@@ -1,3 +1,5 @@
+-Games for sale:
+-Existing Game, sold by Seller1, $25.00
+-Cheap Game, sold by Seller1, $5.00
++Transaction: Username: Login accepted
++Transaction: Existing Game | Seller1 | 25.00
++Cheap Game | Seller1 | 5.00
++Transaction: Logout accepted
++Transaction: 

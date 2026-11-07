@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-Login failed. That username does not exist.
++Transaction: Username: Error: login failed
++Transaction: Username: Login accepted
++Transaction: Logout accepted
++Transaction: 

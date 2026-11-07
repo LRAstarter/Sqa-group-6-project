@@ -1,0 +1,43 @@
+CSCI 3060U Phase 1 Front End Test Plan
+Alex Ho 100971089 | Jevin Chen 100819841 | Shem Jagroop 100826638
+
+Purpose
+Parts 2 and 3 provide a separate input stream and expected result for every case in the test index. Each test starts with fresh account, game, and collection files. The Front End implementation is scheduled for a later phase. The test oracles describe behavior now and are checked against that implementation later.
+
+Organization
+fixtures/ holds shared starting files. inputs/ holds one complete stdin stream per test. expected_daily/ holds the proposed daily transaction file per test. expected_behavior/ records console outcomes and state expectations without inventing exact prompt wording. results/<test ID>/ holds copies of fixtures, actual daily.txt, console.txt, and daily.diff. test_index.tsv maps all 52 IDs to intent. scripts/ contains shell and Windows batch examples.
+
+Run procedure
+1. Confirm the Front End's executable invocation and filename conventions with the team. Adapt the command in both scripts if it differs from the assumed executable users.txt games.txt collection.txt daily.txt interface. 2. Run scripts/run_all.sh /absolute/path/to/program on macOS/Linux or scripts\run_all.bat C:\path\to\program.exe on Windows. 3. Each test starts with fresh fixtures in its own results folder and redirects its input stream to the program. 4. Inspect daily.diff and console.txt against expected_daily and expected_behavior. Record PASS/FAIL/NEEDS CLARIFICATION in a review log; retain these results and rerun after each code change. No program is supplied or run in Phase 1.
+
+Interpretation and requirements issues for TA
+The specification gives no exact console message or prompt text. Behavioral output is therefore stated semantically. It does not define whether rejected commands consume their parameter lines; rejected permission cases supply no parameters so later logout remains a command. Some invalid-input cases give only the invalid value and then logout; if the eventual implementation reprompts, provide the replacement value before running.
+The accounts file field widths add to 28 characters (15+1+2+1+9), matching its stated length. The available games file says 49 and later 42 characters, while the field widths add to 48; the collection file says 42 but its field widths add to 41. These fixtures follow the displayed widths. The client clarified that usernames are 15 characters in every record, and that the monetary decimal is included in the nine-character credit field. The maximum credit is 999999.99. The game-name width in these daily files follows the 25-character name limit.
+The client clarified that a newly created user starts with zero credit. Each end-of-session (00) record names the logged-in user, user type, and available credit at logout. A rejected transaction contributes no daily record; a completed logout still contributes a 00 record. For create, delete and addcredit, the daily record uses the account's available credit after the accepted transaction; refund stores the transferred amount and buy/sell store the game price. The handout is less explicit about the timing of balance updates. Confirm any differing implementation behavior with the client. The specification supplies no account ownership encoding in the available game collection, and whether purchases are immediately visible to the next session is unspecified.
+Blank names, negative and malformed amounts, seller balance checks, zero price, unknown seller, and maximum account balance checks are plausible bad-input requirements under the graceful-handling rule; their exact rejection semantics need TA confirmation. The spec calls refund privileged but does not explicitly state a sufficient seller balance constraint, which the general no-negative-balance policy suggests. The project description says each logout writes a session file; for the two-session test, compare each session's end record separately.
+
+Submission
+Submit the prior Part 1 test-case table plus this zip and this test plan PDF on Canvas; commit the files to the team GitHub repository. The assignment explicitly requires the complete AI prompt and response history when AI is used. Export and include the full history for this work; a one-line disclosure is insufficient.
+
+
+Things add: 
+removed all of the unnessessary 0.
+things noted: The _ are the spaces, it is required, The large gaps happen because every username field must take up 15 characters:
+- Admin1 has 6 characters → 9 padding spaces, then 1 separator space before AA.
+- User1 has 5 characters → 10 padding spaces, then 1 separator space before FS.
+
+proof: 
+under Current User Accounts File, says:
+- “_ is a space” — under the field descriptions.
+- “alphabetic fields are left justified, filled with spaces” — the second bullet under Constraints.
+Under Daily Transaction File → Constraints, the last bullet says:
+“the sequence of transactions ends with an end of session (00) transaction code”
+
+so we also need the 00 for the logout as well.
+
+
+clear ups: 
+unknown_code.txt tests an unrecognized command: The program should reject abracadabra because it isn’t a valid command, then allow logout.
+
+
+

@@ -1,0 +1,6 @@
+Transaction: Username: Login accepted
+Transaction: New username: Error: that username cannot be used
+Transaction: Error: unknown transaction
+Transaction: Error: unknown transaction
+Transaction: Logout accepted
+Transaction: 

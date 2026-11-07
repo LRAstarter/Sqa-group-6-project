@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Game name: Seller username: Error: that game cannot be bought
+Transaction: Logout accepted
+Transaction: 

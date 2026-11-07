@@ -1,0 +1,4 @@
+Transaction: Username: Login accepted
+Transaction: Game name: Price: Game put up for sale
+Transaction: Logout accepted
+Transaction: 

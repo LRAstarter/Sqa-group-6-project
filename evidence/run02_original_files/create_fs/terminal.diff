@@ -1,0 +1,9 @@
+--- expected
++++ actual
+@@ -1 +1,5 @@
+-Account NewFull was created.
++Transaction: Username: Login accepted
++Transaction: New username: Account type: Account created
++Transaction: Error: unknown transaction
++Transaction: Logout accepted
++Transaction: 

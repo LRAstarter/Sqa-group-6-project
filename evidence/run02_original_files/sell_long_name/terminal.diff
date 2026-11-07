@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-The game name cannot be longer than 25 characters.
++Transaction: Username: Login accepted
++Transaction: Game name: Price: Error: that game cannot be sold
++Transaction: Logout accepted
++Transaction: 

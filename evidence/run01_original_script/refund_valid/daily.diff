@@ -1,0 +1,6 @@
+--- /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/expected_daily/refund_valid.txt	2026-11-02 17:10:05.000000000 -0500
++++ /workspace/scratch/46357897080e/tmp/phase3_review/Sqa-group-6-project-main/results/refund_valid/daily.txt	2026-11-02 17:26:47.703240011 -0500
+@@ -1,2 +1 @@
+-05 Buyer1000000000 Seller100000000 000025.00
+-00 Admin1000000000 AA 005000.00
++00 Admin1          AA 005000.00

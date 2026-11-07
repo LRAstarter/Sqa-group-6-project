@@ -1,0 +1,8 @@
+--- expected
++++ actual
+@@ -1 +1,4 @@
+-You bought Existing Game for $25.00.
++Transaction: Username: Login accepted
++Transaction: Game name: Seller username: Purchase accepted
++Transaction: Logout accepted
++Transaction: 
