@@ -1,0 +1,9 @@
+01_           dave_AA_000100000
+03_Stardew Valley     _alice          _002500
+04_Stardew Valley     _alice          _bob            _002500
+04_Chess              _carol          _bob            _001500
+06_           erin_FS_000010000
+05_bob            _carol          _000001500
+02_           erin_FS_000000000
+00_               _  _000000000
+ 
