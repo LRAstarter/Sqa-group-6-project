@@ -13,6 +13,8 @@ print(collection.get_games("Buyer1"))
 
 The example prints 1500 and ['Example Game']. These calls only change in-memory data. They do not charge a buyer, pay a seller, validate an account, or write files.
 
+## To test program Open Backend and click run
+
 ## Integration agreement
 
 Money is stored as integer cents, following the supplied C++ Game class. Names are passed without file padding and compared exactly. The file reader should remove padding and END sentinel records before constructing these objects. The file writer handles field widths, numeric formatting, and END records.
